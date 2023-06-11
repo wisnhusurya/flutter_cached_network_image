@@ -7,7 +7,10 @@ version: 3.2.3
 dependencies:
   flutter:
     sdk: flutter
-  flutter_cache_manager: ^3.3.0
+  flutter_cache_manager:
+    git:
+      url: https://github.com/Carapacik/flutter_cache_manager.git
+      path: flutter_cache_manager
   octo_image: ^1.0.0
   cached_network_image_platform_interface: ^2.0.0
   cached_network_image_web: ^1.0.2
